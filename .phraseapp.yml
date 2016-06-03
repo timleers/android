@@ -1,0 +1,16 @@
+phraseapp:
+  access_token: d112d1f1b1d55b2c828a39f851aa2214e425e26f629832493d2f478954db4a77
+  file_format: xml
+  project_id: a92523ffa35a3d585daa2d87f8eae138
+  pull:
+    targets:
+    - file: ./app/src/main/res/values-de-rAT/strings.xml
+      params: {locale_id: 98d89049dffe6a42b158b3d8ef14ce0a}
+    - file: ./app/src/main/res/values-de/strings.xml
+      params: {locale_id: ce50946936c13e54c481e81970076995}
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: defb90bb572e24e253ce70da530f58da}
+  push:
+    sources:
+    - file: ./app/src/main/res/values/strings.xml
+      params: {locale_id: defb90bb572e24e253ce70da530f58da}
